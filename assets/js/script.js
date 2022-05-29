@@ -30,7 +30,7 @@ const getPokemon = async (id) => {
     const res = await fetch(url)
     const data = await res.json()
     createPokemonCard(data)
-    console.log(data)
+
 }
 
 const createPokemonCard = (pokemon) => {
